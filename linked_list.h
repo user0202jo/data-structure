@@ -1,4 +1,4 @@
-#ifndef LINKED_LIST_H
+  #ifndef LINKED_LIST_H
 #define LINKED_LIST_H
 
 #include "node.h"
@@ -13,8 +13,10 @@ protected:
   void insert(int index, int value);
   int get(int index);
   void remove(int index);
+  void initNodes();
+  void deleteNode();
   Node *head_;
-  int size_;
+  int size_;  
 };
 
 #endif

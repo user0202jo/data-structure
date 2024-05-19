@@ -4,8 +4,8 @@
 #include "stack.h"
 #include <iostream>
 
-// TODO: T 타입을 적절한 타입으로 변경
-void print(T &list) { list.print(); }
+// TODO: T 타입을 적절한 타입으로 변경  
+void print(LinkedList &list) { list.print(); }
 
 void testQueue() {
   Queue queue;
